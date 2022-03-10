@@ -1,16 +1,4 @@
-<?php
-include 'connection.php';
-session_start();
-$EMAIL = $_SESSION['EMAIL'];
-?>
-  <?php
-$sql2 = "SELECT * FROM `user` WHERE `EMAIL` = '$EMAIL'";
-$result2 = mysqli_query($con,$sql2);
-$num2 = mysqli_num_rows($result2);
-if($num2> 0){
-    $row2= mysqli_fetch_assoc($result2);
-}
- ?>
+
 <DOCTYPE html>
   <html lang="en">
 
