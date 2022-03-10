@@ -51,7 +51,7 @@ td {
 
 <?php include 'navbar.php';?>
 
-   <h3 style="color:cornflowerblue; text-align:center;">Only registered user's can upload documents</h3><h3 style="color:blue"><a href="signup.php">Register here</a></h3>
+   <h3 style="color:cornflowerblue; text-align:center;">Only registered user's can upload documents</h3><h3 style="color:blue"><a href="Signup.php">Register here</a></h3>
    <h4 style="color:green; text-align:center;">You can upload any document in form of zip,Microsoft Word Document(Docx) and PDF format.The file size permitted here is 10Mb. </h4>
   <div class="container">
       <div class="row">
@@ -98,13 +98,11 @@ td {
           <button type="submit" name="save"><b>Upload</b></button>
         </form>
       </div>
+     <h3 style="color:cornflowerblue; text-align:center;">Read various Notes , question paper , documents</h3>
+  
     <?php include 'downloads.php';?>
     <?php include 'footer.php';?>
     </div>
-  <div>
-    <h3 style="color:cornflowerblue; text-align:center;">Read various Notes , question paper , documents</h3>
   
-    
-  </div>
 </body>
 </html>
