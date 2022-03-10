@@ -17,7 +17,7 @@
       </li>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="Logout.php">Logout</a>
+            <a class="nav-link" href="logout.php">Logout</a>
           </li>
     </ul>
   </ul>
