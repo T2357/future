@@ -98,12 +98,13 @@ td {
           <button type="submit" name="save"><b>Upload</b></button>
         </form>
       </div>
+    <?php include 'downloads.php';?>
+    <?php include 'footer.php';?>
     </div>
   <div>
     <h3 style="color:cornflowerblue; text-align:center;">Read various Notes , question paper , documents</h3>
   
-    <?php include 'downloads.php';?>
-    <?php include 'footer.php';?>
+    
   </div>
 </body>
 </html>
