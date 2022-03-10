@@ -48,7 +48,7 @@ td {
   color:blueviolet;
 }
 </style>
-<?php include 'connection.php';?>
+
 <?php include 'navbar.php';?>
 
    <h3 style="color:cornflowerblue; text-align:center;">Only registered user's can upload documents</h3><h3 style="color:blue"><a href="signup.php">Register here</a></h3>
